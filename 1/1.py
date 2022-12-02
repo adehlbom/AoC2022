@@ -1,11 +1,3 @@
-
-#splitlines-funktion --> lista
-#funktion som printar ut maxnummer based on max i listan
-
-
-import fileinput
-
-#hantera file input med stödfunktion
 def file_input(addr):
     return addr.readlines()
     
