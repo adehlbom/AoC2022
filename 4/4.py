@@ -1,10 +1,5 @@
 from aocd import numbers,submit
-test = [[2, -4,6,-8],
-[2,-3,4,-5],
-[5,-7,7,-9],
-[2,-8,3,-7],
-[6,-6,4,-6],
-[2,-6,4,-8]]
+
 def check_range(input_list):
     sum_1 = 0
     for row in input_list:
@@ -14,7 +9,7 @@ def check_range(input_list):
             sum_1 += 1
     return sum_1
     
-#submit(check_range(numbers),part='a',day=4,year=2022)
+submit(check_range(numbers),part='a',day=4,year=2022)
 
 
 def check_overlap(input_list):
@@ -27,3 +22,4 @@ def check_overlap(input_list):
     return sum_2
 
 submit(check_overlap(numbers),part='b',day=4,year=2022)
+
